@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include almavivens *.css
+recursive-include almavivens *.csv
+recursive-include almavivens *.html
+recursive-include almavivens *.ico
+recursive-include almavivens *.js
+recursive-include almavivens *.json
+recursive-include almavivens *.md
+recursive-include almavivens *.png
+recursive-include almavivens *.py
+recursive-include almavivens *.svg
+recursive-include almavivens *.txt
+recursive-exclude almavivens *.pyc
